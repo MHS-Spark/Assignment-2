@@ -1,0 +1,64 @@
+body {
+    font-family: mulish, sans-serif;
+}
+
+header {
+    margin: auto;
+    width: 80%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ht {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.ht img {
+    width: 3rem;
+    height: 3.5005rem;
+}
+
+.t1 {
+    color: #FF5400;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+span {
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.nav {
+    display: flex;
+    gap: 2.75rem;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+.bars {
+    display: none;
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .nav {
+        display: none;
+    }
+    .bars {
+        display: inline;
+    }
+}
